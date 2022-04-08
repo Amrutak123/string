@@ -1,0 +1,44 @@
+
+.nameError {
+    margin-bottom: 30px;
+    padding:0px;
+    background: #7eb5fc;
+    text-align: center;
+    font-size: 15px;
+    transition: all 0.5s ease;
+    color:black;
+  }
+
+  .emailError {
+    margin-bottom: 30px;
+    padding:0px;
+
+    background: #7eb5fc;
+    text-align: center;
+    font-size: 15px;
+    transition: all 0.5s ease;
+    color:black;
+
+    
+  }
+  .pswdError {
+    margin-bottom: 30px;
+    padding:0px;
+
+    background: #7eb5fc;
+    text-align: center;
+    font-size: 15px;
+    transition: all 0.5s ease;
+    color:black;
+    
+  }
+  .cpError {
+    margin-bottom: 30px;
+    padding:0px;
+    background: #7eb5fc;
+    text-align: center;
+    font-size: 15px;
+    transition: all 0.5s ease;
+    color:black;
+  }
+  

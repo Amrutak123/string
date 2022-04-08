@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="../dist/css/student.css"> -->
+    
+    <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../plugins/fontawesome-free/css/all.min.css">
+  <!-- icheck bootstrap -->
+  <link rel="stylesheet" href="../plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="../dist/css/adminlte.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>   
+</head>
+<body class="hold-transition register-page">
+    <div class="register-box">
+        <div class="register-logo">
+            <b>AdminLTE</b>
+        </div>
+    
+        <div class="card">
+        <div class="card-body register-card-body">
+            <p class="login-box-msg"><strong>Add lecturer</strong></p>
+            <form id="registration" method="post">
+                <div class="container">
+                    <!-- <div>
+                        <span id="idError" class="idError"></span>
+                        <div class="input-group mb-3">
+                        <input type="text" name="studentId" id="studentId" class="form-control" placeholder="Enter student ID">
+                        <div class="input-group-append">
+                                <div class="input-group-text">
+                                    <span style="color:black"class="fa fa-id-card-o"></span>
+                        </div>
+                        </div>
+                    </div> -->
+                    <input type="hidden" name="lecturerId" id="lecturerId" class="form-control" placeholder="Enter lecturer ID">
+                <div>
+                    <span id="lnError" class="lnError"></span>
+                    <div class="input-group mb-3">
+                    <input type="text" name="lecturerName" id="lName" class="form-control" placeholder="Enter lecturer Name">
+                        <div class="input-group-append">
+                                <div class="input-group-text">
+                                    <span class="fas fa-user"></span>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="align-items:center;  ">
+                    <button  type="submit" name ="addlecturer" class="btn btn-primary btn-block" id="addlecturer">Add Lecturer</button>
+                </div>
+                <button style="margin-top:5px" type="submit" name ="view" class="btn btn-primary btn-block"  id="view"><a href="../studentData/view.html">View Student Data </a></button>
+            </div>
+            </form>
+            
+            </div>
+       </div>
+    </div>
+<script src="../plugins/jquery/jquery.min.js"></script>
+ <!-- Bootstrap 4  -->
+<script src="../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="../dist/js/adminlte.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> -->
+<script src="./addlecturer.js"></script>     
+</body>
+</html>
